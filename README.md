@@ -7,3 +7,4 @@ Installation :
 1 - Utilisez le dump de la BDD qui est dans /bin/dump/zone51.sql pour recréer une base de donner mysql.
 2 - Modifiez le fichier config.php situé dans /bin/php pour qu'il corresponde a votre base de donnée.
 3 - Lancer le fichier index.html (Pensez au localhost en local)
+
