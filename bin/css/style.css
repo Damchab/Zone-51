@@ -1,0 +1,266 @@
+/* Page */
+html {
+	text-align: center;
+	background-color: black;
+	height: 100%;
+	width: 100%;
+	min-height: 100%;
+}
+
+body {
+	position: relative;
+	background-color: black;
+	margin: 0 0;
+	height: 100%;
+	width: 100%;
+	min-height: 100%;
+}
+
+#header {
+	background-color: gray;
+	min-height: 20%;
+}
+
+#contents {
+	background-color: black;
+	min-height: 60%;
+}
+
+#footer {
+	background-color: gray;
+	min-height: 20%;
+}
+
+/*  hud */
+#hudupleft {
+	float: left;
+	background-color: gray;
+}
+
+#hudupcenter {
+	background-color: gray;
+	/* display : inline-block; */
+	width: 100%;
+}
+
+#hudupright {
+	float: right;
+	background-color: gray;
+}
+
+/*Game Zone Objects*/
+#gamezone {
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	background-color: gray;
+	padding: 1%;
+	border: 5px solid black;
+	display: inline-block;
+}
+
+#gamezonein {
+	border: 2px solid black;
+	display: inline-block;
+	background: transparent url("../pictures/groundtest.png") left top;
+	background-size: cover;
+}
+
+/*Cases*/
+.square {
+	float: left;/* 
+	border: 2px solid transparent; */
+	width: 80px;
+	height: 60px;
+}
+
+.square.ground { /* 
+	background: gray url("../pictures/ground.png") no-repeat left top; */
+	background-size: contain;/* 
+	border: 2px solid black; */
+}
+
+.square.wall {
+	/* background: black url("../pictures/wall.png") no-repeat left top; */
+	background-size: contain;
+}
+
+.square.boxstart, .square.boxfeaturestart {
+	background-color: orange;
+}
+
+.square.boxend {
+	/* background: gray url("../pictures/boxend.png") no-repeat left top; */
+	/* background-size: contain; */
+	
+}
+
+.square.playerstart {
+	background-color: green;
+}
+
+/*Game Objects*/
+#player {
+	position: relative;
+	width: 80px;
+	height: 80px;
+	/* padding: 48% 48%;
+	margin: 2% 2% 2% 2%;
+	background: transparent url("../pictures/alienface.png") no-repeat left
+		top;
+	background-size: contain; */
+}
+
+.wall2 {
+	/* background: black url("../pictures/wall.png") no-repeat left top; */
+	/* background-size: contain; */
+	width: 80px;
+	height: 80px;
+	position: relative;
+}
+
+.box {
+	/* position: relative;
+	padding: 40% 40%;
+	margin: 10% 10% 10% 10%;
+	background: transparent url("../pictures/box2.png") no-repeat left top;
+	background-size: contain; */
+	width: 70px;
+	height: 70px;
+	position: relative;
+	padding-left: 10%;
+}
+
+.boxend {
+	width: 80px;
+	height: 80px;
+	position: relative;
+	bottom: 20%;
+}
+
+/* .box.feature {
+	position: relative;
+	padding: 40% 40%;
+	margin: 10% 10% 10% 10%;
+	background: transparent url("../pictures/boxfeature.png") no-repeat left
+		top;
+	background-size: contain;
+} */
+#winscreen {
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	background-color: gray;
+	padding: 1%;
+	border: 5px solid black;
+	display: inline-block;
+}
+
+#logform, #menubg {
+	position: relative;
+	color: green;
+	width: 60%;
+	height: 60%;
+	padding-left: 20%;
+	padding-top: 20%;
+	padding-right: 20%;
+}
+
+#loginform, #log, #menu {
+	position: relative;
+}
+
+/*Game Zone Objects*/
+#chooselevel {
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	background-color: gray;
+	padding: 1%;
+	display: inline-block;
+}
+
+#chooselevelin {
+	position: relative;
+	display: inline-block;
+}
+
+.lvlcontain {
+	position: relative;
+	float: left;
+	margin: 10px 10px;
+	padding: 10px 10px;
+}
+
+.lvl.locked {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background-image: url("../pictures/locked.png"),
+		url("../pictures/wall.png");
+	background-position: top left, top left;
+	background-repeat: no-repeat, no-repeat;
+	background-size: contain, contain;
+}
+
+.lvl.unlocked {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background: gray url("../pictures/wall.png") no-repeat left top;
+	background-size: contain;
+}
+
+.lvl {
+	border: 2px solid transparent;
+}
+
+
+.lvl.unlocked:hover {
+	border: 2px solid red;
+}
+
+button, #connexion {
+	-moz-box-shadow: 3px 4px 0px 0px #899599;
+	-webkit-box-shadow: 3px 4px 0px 0px #899599;
+	box-shadow: 3px 4px 0px 0px #899599;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ededed
+		), color-stop(1, #bab1ba));
+	background: -moz-linear-gradient(top, #ededed 5%, #bab1ba 100%);
+	background: -webkit-linear-gradient(top, #ededed 5%, #bab1ba 100%);
+	background: -o-linear-gradient(top, #ededed 5%, #bab1ba 100%);
+	background: -ms-linear-gradient(top, #ededed 5%, #bab1ba 100%);
+	background: linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed',
+		endColorstr='#bab1ba', GradientType=0);
+	background-color: #ededed;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	border: 1px solid #d6bcd6;
+	display: inline-block;
+	cursor: pointer;
+	color: green;
+	font-family: arial;
+	padding: 7px 25px;
+	text-decoration: none;
+	text-shadow: 0px 1px 0px #e1e2ed;
+}
+
+button:hover, #connexion:hover, button:focus, #connexion:focus {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #bab1ba
+		), color-stop(1, #ededed));
+	background: -moz-linear-gradient(top, #bab1ba 5%, #ededed 100%);
+	background: -webkit-linear-gradient(top, #bab1ba 5%, #ededed 100%);
+	background: -o-linear-gradient(top, #bab1ba 5%, #ededed 100%);
+	background: -ms-linear-gradient(top, #bab1ba 5%, #ededed 100%);
+	background: linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#bab1ba',
+		endColorstr='#ededed', GradientType=0);
+	background-color: #bab1ba;
+}
+
+button:active, #connexion:active {
+	position: relative;
+	top: 1px;
+}

@@ -1,0 +1,109 @@
+<xliff version='1.2'>
+	<file original='' source-language='en-US' target-language='en-US'>
+		<header></header>
+		<body>
+			<trans-unit id='LABEL_LOGIN'>
+				<source>Login</source>
+				<target>Login</target>
+			</trans-unit>
+			<trans-unit id='LABEL_CONNECTION'>
+				<source>Connection</source>
+				<target>Connection</target>
+			</trans-unit>
+			<trans-unit id='LABEL_DISCONNECT'>
+				<source>Disconnect</source>
+				<target>Disconnect</target>
+			</trans-unit>
+			<trans-unit id='LABEL_GUEST'>
+				<source>Guest</source>
+				<target>Guest</target>
+			</trans-unit>
+			<trans-unit id='LABEL_HIGHSCORE'>
+				<source>High Score</source>
+				<target>High Score</target>
+			</trans-unit>
+			<trans-unit id='LABEL_UNDO'>
+				<source>Undo</source>
+				<target>Undo</target>
+			</trans-unit>
+			<trans-unit id='LABEL_REDO'>
+				<source>Redo</source>
+				<target>Redo</target>
+			</trans-unit>
+			<trans-unit id='LABEL_UP'>
+				<source>Up</source>
+				<target>Up</target>
+			</trans-unit>
+			<trans-unit id='LABEL_DOWN'>
+				<source>Down</source>
+				<target>Down</target>
+			</trans-unit>
+			<trans-unit id='LABEL_LEFT'>
+				<source>Left</source>
+				<target>Left</target>
+			</trans-unit>
+			<trans-unit id='LABEL_RIGHT'>
+				<source>Right</source>
+				<target>Right</target>
+			</trans-unit>
+			<trans-unit id='LABEL_LEVEL_CHOICE'>
+				<source>Choose your Level</source>
+				<target>Choose your Level </target>
+			</trans-unit>
+			<trans-unit id='LABEL_LEVEL_END'>
+				<source>Well played! You have finished this level</source>
+				<target>Well played! You have finished this level</target>
+			</trans-unit>
+			<trans-unit id='LABEL_LANGUAGE_ENGLISH'>
+				<source>English</source>
+				<target>English</target>
+			</trans-unit>
+			<trans-unit id='LABEL_LANGUAGE_FRENCH'>
+				<source>French</source>
+				<target>French</target>
+			</trans-unit>
+
+
+			<trans-unit id='LABEL_PLAY'>
+				<source>Play</source>
+				<target>Play</target>
+			</trans-unit>
+			<trans-unit id='LABEL_MENU'>
+				<source>Menu</source>
+				<target>Menu</target>
+			</trans-unit>
+			<trans-unit id='LABEL_HELP'>
+				<source>Help</source>
+				<target>Help</target>
+			</trans-unit>
+			<trans-unit id='LABEL_RETRY'>
+				<source>Retry</source>
+				<target>Retry</target>
+			</trans-unit>
+			<trans-unit id='LABEL_LEVEL'>
+				<source>Level</source>
+				<target>Level</target>
+			</trans-unit>
+			<trans-unit id='HELP_DESCR_GAME'>
+				<source>Zone 51 is a puzzle game that puts the player in the shoes of a prisoner alien in a military base where he must escape .</source>
+				<target>Zone 51 is a puzzle game that puts the player in the shoes of a prisoner alien in a military base where he must escape .</target>
+			</trans-unit>
+			<trans-unit id='HELP_HOWTOPLAY1'>
+				<source>The player can move his character and push boxes</source>
+				<target>The player can move his character and push boxes</target>
+			</trans-unit>
+			<trans-unit id='HELP_HOWTOPLAY2'>
+				<source>The player can move only one box at a time</source>
+				<target>The player can move only one box at a time</target>
+			</trans-unit>
+			<trans-unit id='HELP_HOWTOPLAY3'>
+				<source>The goal is to get each box on a target box</source>
+				<target>The goal is to get each box on a target box</target>
+			</trans-unit>
+			<trans-unit id='HELP_HOWTOPLAY4'>
+				<source>The box of the feature move with the player</source>
+				<target>The box of the feature move with the player</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
